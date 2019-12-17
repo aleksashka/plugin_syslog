@@ -343,7 +343,7 @@ if (cacti_sizeof($query)) {
 
 				/* get a date for the repeat alert */
 				if ($alert['repeat_alert']) {
-					$date = date('Y-m-d H:i:s', time() - ($alert['repeat_alert'] * read_config_option('poller_interval')));
+					$date = date('Y-m-d H:i:s', time() - ($alert['repeat_alert'] * 300));
 				}
 
 				if (cacti_sizeof($at)) {

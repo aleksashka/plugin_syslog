@@ -396,7 +396,7 @@ function syslog_action_edit() {
 		3    => __('%d Minutes', 15, 'syslog'),
 		4    => __('%d Minutes', 20, 'syslog'),
 		6    => __('%d Minutes', 30, 'syslog'),
-		8    => __('%d Minutes', 45, 'syslog'),
+		9    => __('%d Minutes', 45, 'syslog'),
 		12   => __('%d Hour', 1, 'syslog'),
 		24   => __('%d Hours', 2, 'syslog'),
 		36   => __('%d Hours', 3, 'syslog'),
